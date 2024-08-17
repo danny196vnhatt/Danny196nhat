@@ -3,38 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css"> <!-- Đường dẫn đến file CSS -->
+    <title>Portfolio - Ngô Văn Nhật</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #333;
+        }
+        header {
+            background-color: #0288d1;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding-top: 20px;
+        }
+        .portfolio-item {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        .portfolio-item h2 {
+            margin: 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #0288d1;
+            color: #0288d1;
+        }
+        .portfolio-item p {
+            margin: 0;
+            padding-top: 10px;
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+        footer {
+            background-color: #0288d1;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
+        <h1>My Portfolio</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>            
-            Kính gửi Quý nhà tuyển dụng,
-            
-            Tôi tên là Ngô Văn Nhật, hiện tại tôi đang làm việc trong lĩnh vực Data Analysis và Business Administration tại Đại học Kinh tế - Tài chính. Với [Số năm kinh nghiệm] năm kinh nghiệm, tôi đã tích lũy được nhiều kiến thức và kỹ năng trong [Mô tả công việc, kỹ năng cụ thể], giúp tôi luôn hoàn thành tốt các nhiệm vụ được giao và đóng góp vào sự phát triển của công ty.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>This is a section about my projects.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can contact me at: <a href="danny196nhatt@gmail.com">danny196nhatt@gmail.com</a></p>
-    </section>
+    
+    <div class="container">
+        <div class="portfolio-item">
+            <h2>Dự án "Build model ML đánh giá tình trạng mạng và tìm lỗi khắc phục"</h2>
+            <p>Dự án xây dựng mô hình Machine Learning nhằm dự đoán vị trí tối ưu cho các trạm phát sóng mạng, giúp khắc phục tình trạng mạng lag và giảm khiếu nại từ người dùng. Dữ liệu bao gồm vị trí trạm, chất lượng dịch vụ, và khiếu nại của khách hàng. Mô hình dự đoán chất lượng mạng và đề xuất vị trí trạm mới, tối ưu hóa tài nguyên và nâng cao trải nghiệm người dùng.</p>
+        </div>
+        
+        <div class="portfolio-item">
+            <h2>Quý quân của Cuộc thi "Strategic Pro 2024"</h2>
+            <p>Khi đạt giải Quý quân của cuộc thi này, tôi đã chứng tỏ năng lực vượt trội trong việc phân tích và giải quyết các vấn đề chiến lược, cũng như khả năng cạnh tranh mạnh mẽ với các đối thủ tài năng khác. Đây là một thành tích đáng tự hào, ghi dấu ấn cho sự nghiệp của mình trong lĩnh vực chiến lược và quản lý.</p>
+        </div>
+        <!-- Thêm các mục portfolio khác ở đây -->
+    </div>
+
     <footer>
-        <p>&copy; 2024 My Portfolio</p>
+        <p>Contact:  danny196nhatt@gmail.com | 0775419990</p>
+        <p>&copy; 2024 Danny196Vnhat. All rights reserved.</p>
     </footer>
-    <script src="js/scripts.js"></script> <!-- Đường dẫn đến file JavaScript -->
 </body>
 </html>
