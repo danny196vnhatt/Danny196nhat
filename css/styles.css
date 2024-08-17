@@ -44,3 +44,16 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* Định dạng cho hình ảnh */
+image-container {
+    text-align: center; /* Canh giữa hình ảnh */
+    margin: 20px 0; /* Thêm khoảng trống trên và dưới hình ảnh */
+}
+
+decorative-image {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá khung chứa */
+    height: auto; /* Giữ tỷ lệ hình ảnh */
+    border-radius: 10px; /* Bo tròn các góc của hình ảnh */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng nhẹ cho hình ảnh */
+}
